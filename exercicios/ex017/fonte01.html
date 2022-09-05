@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt(ponto), pc(paica)
+            
+            Medidas Relativas
+            em(medida relativa ao tamanho atual da fonte), ex(relativo á altura X de uma fonte), rem, vw(porcentagem da largura da viewport), vh(altura da viewport), %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* propriedade shorthand font
+            font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'work Sans', sans-serif;
+            font-weight: lighter;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic lighter 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: lighter 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet eos natus eum molestiae nisi, cumque exercitationem nostrum inventore, delectus earum consectetur quis perferendis fugit laborum ipsum culpa reprehenderit itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corporis eius eaque nesciunt possimus maiores voluptate, eveniet adipisci, culpa magni in ut cumque quae nemo fugiat mollitia ullam enim quam!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus facilis illo magni, id deleniti distinctio ipsa voluptas ad totam mollitia culpa laborum delectus animi officiis. Ducimus odit sapiente ut velit?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam officia iure voluptatem molestiae illum dolorem praesentium reprehenderit! Autem eius architecto in, dignissimos corrupti doloribus nemo aperiam nam ex voluptatum.</p>
+</body>
+</html>
